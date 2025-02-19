@@ -1,0 +1,3453 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "adminPassword",
+      "cart": [
+        {
+          "31": 2
+        },
+        {
+          "5": 11
+        },
+        {
+          "3": 3
+        },
+        {
+          "22": 1
+        }
+      ],
+      "addresses": [
+        {
+          "id": 1,
+          "title": "New edit address",
+          "full_address": "city City 7712, street Street, house 10",
+          "phone": "8 (996) 729 15 56",
+          "placeStatus": "Home"
+        },
+        {
+          "id": 2,
+          "title": "New Second address",
+          "full_address": "city City2, street Street2, house 20 fjkhnfdjknfk fjdnfdkjnfdkfj ndfkjnfdkjn ",
+          "phone": "8 (937) 999 51 91",
+          "placeStatus": "Office"
+        }
+      ]
+    },
+    {
+      "username": "newUser",
+      "password": "qwerty123",
+      "id": 2
+    },
+    {
+      "username": "Pavel",
+      "password": "pavel",
+      "id": 3
+    },
+    {
+      "username": "testUserName",
+      "password": "test",
+      "id": 4
+    },
+    {
+      "username": "ivanLogin",
+      "password": "ivanPassword",
+      "id": 5
+    },
+    {
+      "username": "ivanUserName",
+      "password": "ivanPassword7712",
+      "id": 6
+    }
+  ],
+  "profiles": [
+    {
+      "id": 1,
+      "username": "admin",
+      "name": "Павел",
+      "surname": "Мурахтанов",
+      "patronymic": "Игоревич",
+      "birthday": "24.02.2004"
+    },
+    {
+      "username": "newUser",
+      "name": "Дмитрий",
+      "surname": "Кашин",
+      "patronymic": "Валентинович",
+      "id": 2
+    },
+    {
+      "username": "Pavel",
+      "name": "",
+      "surname": "",
+      "patronymic": "",
+      "id": 3
+    },
+    {
+      "username": "testUserName",
+      "name": "",
+      "surname": "",
+      "patronymic": "",
+      "id": 4
+    },
+    {
+      "username": "ivanLogin",
+      "name": "",
+      "surname": "",
+      "patronymic": "",
+      "id": 5
+    },
+    {
+      "username": "ivanUserName",
+      "name": "",
+      "surname": "",
+      "patronymic": "",
+      "id": 6
+    }
+  ],
+  "mainBanners": [
+    {
+      "title": "Pro.Beyond.",
+      "model": "IPhone 14",
+      "version": "Pro",
+      "subtitle": "Created to change everything for the better. For everyone",
+      "productId": "26",
+      "imagePath": "https://i.ibb.co/RNtgdnz/iphone-banner.png"
+    },
+    {
+      "title": "Pro.Beyond.",
+      "model": "MacBook",
+      "version": "Pro",
+      "subtitle": "It will be an excellent tool for real professionals",
+      "productId": "34",
+      "imagePath": "https://i.ibb.co/XpzVtWS/MacBook.png"
+    },
+    {
+      "title": "Pro.Beyond.",
+      "model": "AirPods",
+      "version": "Max",
+      "subtitle": "Incredible sound, immersing in a completely new reality",
+      "productId": "1",
+      "imagePath": "https://i.ibb.co/wSkbsp7/airpods-max.png"
+    }
+  ],
+  "smallBanners": [
+    {
+      "bgColor": "bg-[#fff]",
+      "hoverEffect": true,
+      "titleClass": "lg:font-medium lg:text-4xl 2xl:text-5xl",
+      "subtitleClass": "font-medium",
+      "imageSize": "max-w-[330px] max-h-[377px]",
+      "smallBanner": {
+        "id": "32",
+        "title": "Playstation",
+        "subtitle": "5",
+        "description": "Incredibly powerful CPUs, GPUs, and an SSD with integrated I/O will redefine your PlayStation experience.",
+        "imageSrc": "https://i.ibb.co/NTWTJ4r/Play-Station.png"
+      }
+    },
+    {
+      "bgColor": "bg-[#EDEDED]",
+      "hoverEffect": true,
+      "titleClass": "lg:text-xl xl:text-2xl 2xl:text-3xl",
+      "subtitleClass": "font-medium lg:block",
+      "imageSize": "max-w-[245px] max-h-[272px]",
+      "smallBanner": {
+        "id": "1",
+        "title": "Apple AirPods",
+        "subtitle": "Max",
+        "description": "Computational audio. Listen, it's powerful",
+        "imageSrc": "https://i.ibb.co/DpRnZJc/Airpods-Max.png"
+      }
+    },
+    {
+      "bgColor": "bg-[#353535]",
+      "hoverEffect": true,
+      "titleClass": "text-white lg:text-xl xl:text-2xl 2xl:text-3xl",
+      "subtitleClass": "font-medium lg:block",
+      "imageSize": "max-w-[330px] max-h-[190px]",
+      "smallBanner": {
+        "id": "33",
+        "title": "Apple Vision",
+        "subtitle": "Pro",
+        "description": "An immersive way to experience entertainment",
+        "imageSrc": "https://i.ibb.co/h72XTWJ/Apple-Vision.png"
+      }
+    },
+    {
+      "bgColor": "bg-[#EDEDED]",
+      "hoverEffect": false,
+      "titleClass": "lg:text-5xl xl:text-6xl 2xl:text-[64px]",
+      "subtitleClass": "font-medium",
+      "imageSize": "max-h-[502px] max-w-[830px]",
+      "smallBanner": {
+        "id": "34",
+        "title": "Macbook",
+        "subtitle": "Pro",
+        "description": "The new 15‑inch MacBook Air makes room for more of what you love with a spacious Liquid Retina display.",
+        "imageSrc": "https://i.ibb.co/5sC6XzJ/MacBook.png"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": "001",
+      "name": "Phones",
+      "imageSrc": "https://i.ibb.co/Xb6ynxT/Phones.png"
+    },
+    {
+      "id": "002",
+      "name": "Smart Watches",
+      "imageSrc": "https://i.ibb.co/V3cMFBz/Smart-Watches.png"
+    },
+    {
+      "id": "003",
+      "name": "Cameras",
+      "imageSrc": "https://i.ibb.co/fkkdSsC/Cameras.png"
+    },
+    {
+      "id": "004",
+      "name": "Headphones",
+      "imageSrc": "https://i.ibb.co/F7s7QFg/Headphones.png"
+    },
+    {
+      "id": "005",
+      "name": "Computers",
+      "imageSrc": "https://i.ibb.co/bdNKfdr/Computers.png"
+    },
+    {
+      "id": "006",
+      "name": "Gaming",
+      "imageSrc": "https://i.ibb.co/qdxMHjH/Gaming.png"
+    },
+    {
+      "id": "007",
+      "name": "Phones",
+      "imageSrc": "https://i.ibb.co/Xb6ynxT/Phones.png"
+    },
+    {
+      "id": "008",
+      "name": "Smart Watches",
+      "imageSrc": "https://i.ibb.co/V3cMFBz/Smart-Watches.png"
+    },
+    {
+      "id": "009",
+      "name": "Cameras",
+      "imageSrc": "https://i.ibb.co/fkkdSsC/Cameras.png"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "AirPods Max Silver",
+      "imageUrl": "https://i.ibb.co/fN4YRyP/Air-Pods-Max.png",
+      "price": 549,
+      "sale": 20,
+      "state": "New Arrival",
+      "deviceFamily": "AirPods Max",
+      "color": "#E8E8E8",
+      "modification": null,
+      "brand": "Apple",
+      "shortProperties": [
+        {}
+      ],
+      "imagesGallery": [
+        "https://i.ibb.co/fN4YRyP/Air-Pods-Max.png"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Apple Watch Series 9 GPS 41mm Starlight Aluminium Case",
+      "imageUrl": "https://i.ibb.co/tBzTdL7/Apple-Watch.png",
+      "price": 399,
+      "sale": 35,
+      "state": "New Arrival",
+      "deviceFamily": "Apple Watch Series 9 GPS 41mm",
+      "color": "#E8E8E8",
+      "modification": "41mm",
+      "brand": "Apple",
+      "shortProperties": [
+        {}
+      ],
+      "imagesGallery": [
+        "https://i.ibb.co/tBzTdL7/Apple-Watch.png"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Blackmagic Pocket Cinema Camera 6k",
+      "imageUrl": "https://i.ibb.co/zxQJ5pk/Camera.png",
+      "price": 2535,
+      "state": "New Arrival",
+      "deviceFamily": "Blackmagic Pocket Cinema Camera 6k",
+      "color": "#E8E8E8",
+      "modification": "6k",
+      "brand": "Blackmagic",
+      "shortProperties": [
+        {}
+      ],
+      "imagesGallery": [
+        "https://i.ibb.co/zxQJ5pk/Camera.png"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Galaxy Z Fold5 | 256GB | Phantom Black",
+      "imageUrl": "https://i.ibb.co/qRhsXHG/Galaxy.png",
+      "price": 1799,
+      "state": "New Arrival",
+      "deviceFamily": "Galaxy Z Fold5",
+      "color": "#000",
+      "modification": "256GB",
+      "brand": "Samsung",
+      "shortProperties": [
+        {}
+      ],
+      "imagesGallery": [
+        "https://i.ibb.co/qRhsXHG/Galaxy.png"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Galaxy Buds FE Graphite",
+      "imageUrl": "https://i.ibb.co/4pXYqCc/Galaxy-Buds.png",
+      "price": 549,
+      "state": "New Arrival",
+      "deviceFamily": "Galaxy Buds FE",
+      "color": "#525154",
+      "modification": null,
+      "brand": "Samsung",
+      "shortProperties": [
+        {}
+      ],
+      "imagesGallery": [
+        "https://i.ibb.co/4pXYqCc/Galaxy-Buds.png"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Apple iPad 9 10.2\" 64GB Wi-Fi Silver (MK2L3) 2021",
+      "imageUrl": "https://i.ibb.co/BP7gdNS/Ipad.png",
+      "price": 99.99,
+      "state": "New Arrival",
+      "deviceFamily": "Apple iPad 9 10.2",
+      "color": "#E8E8E8",
+      "modification": "64GB",
+      "brand": "Apple",
+      "shortProperties": [
+        {}
+      ],
+      "imagesGallery": [
+        "https://i.ibb.co/BP7gdNS/Ipad.png"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Apple iPad 9 10.2\" 128GB Wi-Fi Silver (MK2L3) 2021",
+      "imageUrl": "https://i.ibb.co/BP7gdNS/Ipad.png",
+      "price": 398,
+      "deviceFamily": "Apple iPad 9 10.2",
+      "color": "#E8E8E8",
+      "modification": "128GB",
+      "brand": "Apple",
+      "shortProperties": [
+        {}
+      ],
+      "imagesGallery": [
+        "https://i.ibb.co/BP7gdNS/Ipad.png"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Apple iPad 9 10.2\" 256GB Wi-Fi Silver (MK2L3) 2021",
+      "imageUrl": "https://i.ibb.co/BP7gdNS/Ipad.png",
+      "price": 579,
+      "state": "Bestseller",
+      "deviceFamily": "Apple iPad 9 10.2",
+      "color": "#E8E8E8",
+      "modification": "256GB",
+      "brand": "Apple",
+      "shortProperties": [
+        {}
+      ],
+      "imagesGallery": [
+        "https://i.ibb.co/BP7gdNS/Ipad.png"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Apple iPad 9 10.2\" 512GB Wi-Fi Silver (MK2L3) 2021",
+      "imageUrl": "https://i.ibb.co/BP7gdNS/Ipad.png",
+      "price": 899,
+      "deviceFamily": "Apple iPad 9 10.2",
+      "color": "#E8E8E8",
+      "modification": "512GB",
+      "brand": "Apple",
+      "shortProperties": [
+        {}
+      ],
+      "imagesGallery": [
+        "https://i.ibb.co/BP7gdNS/Ipad.png"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Apple iPhone 11 64GB White (MQ233)",
+      "imageUrl": "https://i.ibb.co/F6hvCJj/Iphone11-White.png",
+      "price": 510,
+      "deviceFamily": "Apple iPhone 11",
+      "color": "#E8E8E8",
+      "modification": "64GB",
+      "brand": "Apple",
+      "shortProperties": [
+        {}
+      ],
+      "imagesGallery": [
+        "https://i.ibb.co/HC3PwzD/jk9grlfgoy2x43fyfl8ptglmwqo14nd9.jpg",
+        "https://i.ibb.co/BzNbdVz/tpvt89mrla4mkuvimlmgdt0vzyxukca0.jpg",
+        "https://i.ibb.co/QPcXVn9/wdz3ph6cy5swh3sqp0icat1nnxfcqf86.png",
+        "https://i.ibb.co/6bGD9Yd/ymsenlzm329vv3gagnzlrjja0ep4jr1c.png"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Apple iPhone 11 128GB White (MQ233)",
+      "imageUrl": "https://i.ibb.co/F6hvCJj/Iphone11-White.png",
+      "price": 649,
+      "state": "Bestseller",
+      "deviceFamily": "Apple iPhone 11",
+      "color": "#E8E8E8",
+      "modification": "128GB",
+      "brand": "Apple",
+      "shortProperties": [
+        {}
+      ],
+      "imagesGallery": [
+        "https://i.ibb.co/HC3PwzD/jk9grlfgoy2x43fyfl8ptglmwqo14nd9.jpg",
+        "https://i.ibb.co/BzNbdVz/tpvt89mrla4mkuvimlmgdt0vzyxukca0.jpg",
+        "https://i.ibb.co/QPcXVn9/wdz3ph6cy5swh3sqp0icat1nnxfcqf86.png",
+        "https://i.ibb.co/6bGD9Yd/ymsenlzm329vv3gagnzlrjja0ep4jr1c.png"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Apple iPhone 11 256GB White (MQ233)",
+      "imageUrl": "https://i.ibb.co/F6hvCJj/Iphone11-White.png",
+      "price": 799,
+      "state": "Featured Products",
+      "deviceFamily": "Apple iPhone 11",
+      "color": "#E8E8E8",
+      "modification": "256GB",
+      "brand": "Apple",
+      "shortProperties": [
+        {}
+      ],
+      "imagesGallery": [
+        "https://i.ibb.co/HC3PwzD/jk9grlfgoy2x43fyfl8ptglmwqo14nd9.jpg",
+        "https://i.ibb.co/BzNbdVz/tpvt89mrla4mkuvimlmgdt0vzyxukca0.jpg",
+        "https://i.ibb.co/QPcXVn9/wdz3ph6cy5swh3sqp0icat1nnxfcqf86.png",
+        "https://i.ibb.co/6bGD9Yd/ymsenlzm329vv3gagnzlrjja0ep4jr1c.png"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Apple iPhone 11 512GB White (MQ233)",
+      "imageUrl": "https://i.ibb.co/F6hvCJj/Iphone11-White.png",
+      "price": 949,
+      "deviceFamily": "Apple iPhone 11",
+      "color": "#E8E8E8",
+      "modification": "512GB",
+      "brand": "Apple",
+      "shortProperties": [
+        {}
+      ],
+      "imagesGallery": [
+        "https://i.ibb.co/HC3PwzD/jk9grlfgoy2x43fyfl8ptglmwqo14nd9.jpg",
+        "https://i.ibb.co/BzNbdVz/tpvt89mrla4mkuvimlmgdt0vzyxukca0.jpg",
+        "https://i.ibb.co/QPcXVn9/wdz3ph6cy5swh3sqp0icat1nnxfcqf86.png",
+        "https://i.ibb.co/6bGD9Yd/ymsenlzm329vv3gagnzlrjja0ep4jr1c.png"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Apple iPhone 13 mini 128GB Pink (MLK23)",
+      "imageUrl": "https://i.ibb.co/dBzSgfv/Iphone13-Mini.png",
+      "price": 850,
+      "state": "Bestseller",
+      "deviceFamily": "Apple iPhone 13 mini",
+      "color": "#F7DBD5",
+      "modification": "128GB",
+      "brand": "Apple",
+      "shortProperties": [
+        {}
+      ],
+      "imagesGallery": [
+        "https://i.ibb.co/ncPh6fs/78xu98ur6rycxcfns4f0ba95gviqg1rw.jpg",
+        "https://i.ibb.co/QQVJNfL/912mqiwjlk7dtd3c9aokmn5pgijpbl11.jpg",
+        "https://i.ibb.co/6XQWHv4/thgh3coem3f2691o2qpyyjjoyncfgo69.jpg",
+        "https://i.ibb.co/5kpngxq/yfo9lsc4zow528l13130500k5fbgfyi1.jpg"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Apple iPhone 13 mini 256GB Pink (MLK23)",
+      "imageUrl": "https://i.ibb.co/dBzSgfv/Iphone13-Mini.png",
+      "price": 1049,
+      "state": "Featured Products",
+      "deviceFamily": "Apple iPhone 13 mini",
+      "color": "#F7DBD5",
+      "modification": "256GB",
+      "brand": "Apple",
+      "shortProperties": [
+        {
+          "name": "Screen size",
+          "value": "5.4",
+          "iconUrl": "https://i.ibb.co/tLYsxj3/1.png"
+        },
+        {
+          "name": "CPU",
+          "value": "Apple A15",
+          "iconUrl": "https://i.ibb.co/Zf4hP2Z/2.png"
+        },
+        {
+          "name": "Main camera",
+          "value": "12 MP",
+          "iconUrl": "https://i.ibb.co/gSQfjWs/4.png"
+        },
+        {
+          "name": "Front-camera",
+          "value": "12 MP",
+          "iconUrl": "https://i.ibb.co/ckgtVNg/5.png"
+        },
+        {
+          "name": "Battery capacity",
+          "value": "2438 mAh",
+          "iconUrl": "https://i.ibb.co/12wVdyJ/6.png"
+        }
+      ],
+      "imagesGallery": [
+        "https://i.ibb.co/ncPh6fs/78xu98ur6rycxcfns4f0ba95gviqg1rw.jpg",
+        "https://i.ibb.co/QQVJNfL/912mqiwjlk7dtd3c9aokmn5pgijpbl11.jpg",
+        "https://i.ibb.co/6XQWHv4/thgh3coem3f2691o2qpyyjjoyncfgo69.jpg",
+        "https://i.ibb.co/5kpngxq/yfo9lsc4zow528l13130500k5fbgfyi1.jpg"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Apple iPhone 14 Pro 128GB Space Black (MQ0T3)",
+      "imageUrl": "https://i.ibb.co/bLX3xqJ/Iphone14-Pro-Black.png",
+      "price": 1399,
+      "state": "Bestseller",
+      "deviceFamily": "Apple iPhone 14 Pro",
+      "color": "#000",
+      "modification": "128GB",
+      "brand": "Apple",
+      "shortProperties": [
+        {
+          "name": "Screen size",
+          "value": "6.7",
+          "iconUrl": "https://i.ibb.co/tLYsxj3/1.png"
+        },
+        {
+          "name": "CPU",
+          "value": "Apple A16 Bionic",
+          "iconUrl": "https://i.ibb.co/Zf4hP2Z/2.png"
+        },
+        {
+          "name": "Number of Cores",
+          "value": "6",
+          "iconUrl": "https://i.ibb.co/WVQDGtB/3.png"
+        },
+        {
+          "name": "Main camera",
+          "value": "48-12 -12 MP",
+          "iconUrl": "https://i.ibb.co/gSQfjWs/4.png"
+        },
+        {
+          "name": "Front-camera",
+          "value": "12 MP",
+          "iconUrl": "https://i.ibb.co/ckgtVNg/5.png"
+        },
+        {
+          "name": "Battery capacity",
+          "value": "4323 mAh",
+          "iconUrl": "https://i.ibb.co/12wVdyJ/6.png"
+        }
+      ],
+      "imagesGallery": [
+        "https://i.ibb.co/0m8QDc2/9r7hu0p7b95ifigaywzouswm4fq6lvhw.jpg",
+        "https://i.ibb.co/tp4dqLC/59eoffo7azozd6nvwjxgowvces64x6k1.png",
+        "https://i.ibb.co/K67HQFm/n8bvvrl1dlb6jy81e1dyxotn5omvmcmy.png",
+        "https://i.ibb.co/K29710j/v8nu0daou299k9port8vgjsy0qj3aihl.png",
+        "https://i.ibb.co/9ssrrd7/vyzcyy768ibbl0bqpso9eqd70jh73hpv.jpg",
+        "https://i.ibb.co/vjpvMYZ/xgjou790p7yqefau83l412dgiohjwp46.jpg"
+      ],
+      "details": {
+        "text": "Just as a book is judged by its cover, the first thing you notice when you pick up a modern smartphone is the display. Nothing surprising, because advanced technologies allow you to practically level the display frames and cutouts for the front camera and speaker, leaving no room for bold design solutions. And how good that in such realities Apple everything is fine with displays. Both critics and mass consumers always praise the quality of the picture provided by the products of the Californian brand. And last year's 6.7-inch Retina panels, which had ProMotion, caused real admiration for many.",
+        "detailsArray": [
+          {
+            "title": "Screen",
+            "detailsArray": [
+              {
+                "name": "Screen diagonal",
+                "values": [
+                  "6.7"
+                ]
+              },
+              {
+                "name": "The screen resolution",
+                "values": [
+                  "2796x1290"
+                ]
+              },
+              {
+                "name": "The screen refresh rate",
+                "values": [
+                  "120 Hz"
+                ]
+              },
+              {
+                "name": "The pixel density",
+                "values": [
+                  "460 ppi"
+                ]
+              },
+              {
+                "name": "Screen type",
+                "values": [
+                  "OLED"
+                ]
+              },
+              {
+                "name": "Additionally",
+                "values": [
+                  "Dynamic Island",
+                  "Always-On display",
+                  "HDR display",
+                  "True Tone",
+                  "Wide color (P3)"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "CPU",
+            "detailsArray": [
+              {
+                "name": "CPU",
+                "values": [
+                  "A16 Bionic"
+                ]
+              },
+              {
+                "name": "Number of cores",
+                "values": [
+                  "6"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Memory",
+            "detailsArray": [
+              {
+                "name": "The amount of internal memory",
+                "values": [
+                  "128GB"
+                ]
+              },
+              {
+                "name": "Random access memory",
+                "values": [
+                  "12GB"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Connection",
+            "detailsArray": [
+              {
+                "name": "Standard",
+                "values": [
+                  "5G (sub‑6 GHz)",
+                  "Gigabit Class LTE",
+                  "GSM/EDGE",
+                  "UMTS/HSPA+/DC-HSDPA",
+                  "MIMO"
+                ]
+              },
+              {
+                "name": "SIM card",
+                "values": [
+                  "Nano Sim + eSIM"
+                ]
+              },
+              {
+                "name": "Connector",
+                "values": [
+                  "Lightning"
+                ]
+              },
+              {
+                "name": "Interfaces",
+                "values": [
+                  "Wi‑Fi 6 (802.11ax)",
+                  "Bluetooth 5.3",
+                  "NFC"
+                ]
+              },
+              {
+                "name": "Satellite navigation",
+                "values": [
+                  "GPS",
+                  "Galileo",
+                  "QZSS",
+                  "BeiDou"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "name": "Apple iPhone 14 Pro 256GB Space Black (MQ0T3)",
+      "imageUrl": "https://i.ibb.co/bLX3xqJ/Iphone14-Pro-Black.png",
+      "price": 1499,
+      "deviceFamily": "Apple iPhone 14 Pro",
+      "color": "#000",
+      "modification": "256GB",
+      "brand": "Apple",
+      "shortProperties": [
+        {
+          "name": "Screen size",
+          "value": "6.7",
+          "iconUrl": "https://i.ibb.co/tLYsxj3/1.png"
+        },
+        {
+          "name": "CPU",
+          "value": "Apple A16 Bionic",
+          "iconUrl": "https://i.ibb.co/Zf4hP2Z/2.png"
+        },
+        {
+          "name": "Number of Cores",
+          "value": "6",
+          "iconUrl": "https://i.ibb.co/WVQDGtB/3.png"
+        },
+        {
+          "name": "Main camera",
+          "value": "48-12 -12 MP",
+          "iconUrl": "https://i.ibb.co/gSQfjWs/4.png"
+        },
+        {
+          "name": "Front-camera",
+          "value": "12 MP",
+          "iconUrl": "https://i.ibb.co/ckgtVNg/5.png"
+        },
+        {
+          "name": "Battery capacity",
+          "value": "4323 mAh",
+          "iconUrl": "https://i.ibb.co/12wVdyJ/6.png"
+        }
+      ],
+      "imagesGallery": [
+        "https://i.ibb.co/0m8QDc2/9r7hu0p7b95ifigaywzouswm4fq6lvhw.jpg",
+        "https://i.ibb.co/tp4dqLC/59eoffo7azozd6nvwjxgowvces64x6k1.png",
+        "https://i.ibb.co/K67HQFm/n8bvvrl1dlb6jy81e1dyxotn5omvmcmy.png",
+        "https://i.ibb.co/K29710j/v8nu0daou299k9port8vgjsy0qj3aihl.png",
+        "https://i.ibb.co/9ssrrd7/vyzcyy768ibbl0bqpso9eqd70jh73hpv.jpg",
+        "https://i.ibb.co/vjpvMYZ/xgjou790p7yqefau83l412dgiohjwp46.jpg"
+      ],
+      "details": {
+        "text": "Just as a book is judged by its cover, the first thing you notice when you pick up a modern smartphone is the display. Nothing surprising, because advanced technologies allow you to practically level the display frames and cutouts for the front camera and speaker, leaving no room for bold design solutions. And how good that in such realities Apple everything is fine with displays. Both critics and mass consumers always praise the quality of the picture provided by the products of the Californian brand. And last year's 6.7-inch Retina panels, which had ProMotion, caused real admiration for many.",
+        "detailsArray": [
+          {
+            "title": "Screen",
+            "detailsArray": [
+              {
+                "name": "Screen diagonal",
+                "values": [
+                  "6.7"
+                ]
+              },
+              {
+                "name": "The screen resolution",
+                "values": [
+                  "2796x1290"
+                ]
+              },
+              {
+                "name": "The screen refresh rate",
+                "values": [
+                  "120 Hz"
+                ]
+              },
+              {
+                "name": "The pixel density",
+                "values": [
+                  "460 ppi"
+                ]
+              },
+              {
+                "name": "Screen type",
+                "values": [
+                  "OLED"
+                ]
+              },
+              {
+                "name": "Additionally",
+                "values": [
+                  "Dynamic Island",
+                  "Always-On display",
+                  "HDR display",
+                  "True Tone",
+                  "Wide color (P3)"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "CPU",
+            "detailsArray": [
+              {
+                "name": "CPU",
+                "values": [
+                  "A16 Bionic"
+                ]
+              },
+              {
+                "name": "Number of cores",
+                "values": [
+                  "6"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Memory",
+            "detailsArray": [
+              {
+                "name": "The amount of internal memory",
+                "values": [
+                  "256GB"
+                ]
+              },
+              {
+                "name": "Random access memory",
+                "values": [
+                  "12GB"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Connection",
+            "detailsArray": [
+              {
+                "name": "Standard",
+                "values": [
+                  "5G (sub‑6 GHz)",
+                  "Gigabit Class LTE",
+                  "GSM/EDGE",
+                  "UMTS/HSPA+/DC-HSDPA",
+                  "MIMO"
+                ]
+              },
+              {
+                "name": "SIM card",
+                "values": [
+                  "Nano Sim + eSIM"
+                ]
+              },
+              {
+                "name": "Connector",
+                "values": [
+                  "Lightning"
+                ]
+              },
+              {
+                "name": "Interfaces",
+                "values": [
+                  "Wi‑Fi 6 (802.11ax)",
+                  "Bluetooth 5.3",
+                  "NFC"
+                ]
+              },
+              {
+                "name": "Satellite navigation",
+                "values": [
+                  "GPS",
+                  "Galileo",
+                  "QZSS",
+                  "BeiDou"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "name": "Apple iPhone 14 Pro 512GB Space Black (MQ0T3)",
+      "imageUrl": "https://i.ibb.co/bLX3xqJ/Iphone14-Pro-Black.png",
+      "price": 1799,
+      "state": "Featured Products",
+      "deviceFamily": "Apple iPhone 14 Pro",
+      "color": "#000",
+      "modification": "512GB",
+      "brand": "Apple",
+      "shortProperties": [
+        {
+          "name": "Screen size",
+          "value": "6.7",
+          "iconUrl": "https://i.ibb.co/tLYsxj3/1.png"
+        },
+        {
+          "name": "CPU",
+          "value": "Apple A16 Bionic",
+          "iconUrl": "https://i.ibb.co/Zf4hP2Z/2.png"
+        },
+        {
+          "name": "Number of Cores",
+          "value": "6",
+          "iconUrl": "https://i.ibb.co/WVQDGtB/3.png"
+        },
+        {
+          "name": "Main camera",
+          "value": "48-12 -12 MP",
+          "iconUrl": "https://i.ibb.co/gSQfjWs/4.png"
+        },
+        {
+          "name": "Front-camera",
+          "value": "12 MP",
+          "iconUrl": "https://i.ibb.co/ckgtVNg/5.png"
+        },
+        {
+          "name": "Battery capacity",
+          "value": "4323 mAh",
+          "iconUrl": "https://i.ibb.co/12wVdyJ/6.png"
+        }
+      ],
+      "imagesGallery": [
+        "https://i.ibb.co/0m8QDc2/9r7hu0p7b95ifigaywzouswm4fq6lvhw.jpg",
+        "https://i.ibb.co/tp4dqLC/59eoffo7azozd6nvwjxgowvces64x6k1.png",
+        "https://i.ibb.co/K67HQFm/n8bvvrl1dlb6jy81e1dyxotn5omvmcmy.png",
+        "https://i.ibb.co/K29710j/v8nu0daou299k9port8vgjsy0qj3aihl.png",
+        "https://i.ibb.co/9ssrrd7/vyzcyy768ibbl0bqpso9eqd70jh73hpv.jpg",
+        "https://i.ibb.co/vjpvMYZ/xgjou790p7yqefau83l412dgiohjwp46.jpg"
+      ],
+      "details": {
+        "text": "Just as a book is judged by its cover, the first thing you notice when you pick up a modern smartphone is the display. Nothing surprising, because advanced technologies allow you to practically level the display frames and cutouts for the front camera and speaker, leaving no room for bold design solutions. And how good that in such realities Apple everything is fine with displays. Both critics and mass consumers always praise the quality of the picture provided by the products of the Californian brand. And last year's 6.7-inch Retina panels, which had ProMotion, caused real admiration for many.",
+        "detailsArray": [
+          {
+            "title": "Screen",
+            "detailsArray": [
+              {
+                "name": "Screen diagonal",
+                "values": [
+                  "6.7"
+                ]
+              },
+              {
+                "name": "The screen resolution",
+                "values": [
+                  "2796x1290"
+                ]
+              },
+              {
+                "name": "The screen refresh rate",
+                "values": [
+                  "120 Hz"
+                ]
+              },
+              {
+                "name": "The pixel density",
+                "values": [
+                  "460 ppi"
+                ]
+              },
+              {
+                "name": "Screen type",
+                "values": [
+                  "OLED"
+                ]
+              },
+              {
+                "name": "Additionally",
+                "values": [
+                  "Dynamic Island",
+                  "Always-On display",
+                  "HDR display",
+                  "True Tone",
+                  "Wide color (P3)"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "CPU",
+            "detailsArray": [
+              {
+                "name": "CPU",
+                "values": [
+                  "A16 Bionic"
+                ]
+              },
+              {
+                "name": "Number of cores",
+                "values": [
+                  "6"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Memory",
+            "detailsArray": [
+              {
+                "name": "The amount of internal memory",
+                "values": [
+                  "512GB"
+                ]
+              },
+              {
+                "name": "Random access memory",
+                "values": [
+                  "12GB"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Connection",
+            "detailsArray": [
+              {
+                "name": "Standard",
+                "values": [
+                  "5G (sub‑6 GHz)",
+                  "Gigabit Class LTE",
+                  "GSM/EDGE",
+                  "UMTS/HSPA+/DC-HSDPA",
+                  "MIMO"
+                ]
+              },
+              {
+                "name": "SIM card",
+                "values": [
+                  "Nano Sim + eSIM"
+                ]
+              },
+              {
+                "name": "Connector",
+                "values": [
+                  "Lightning"
+                ]
+              },
+              {
+                "name": "Interfaces",
+                "values": [
+                  "Wi‑Fi 6 (802.11ax)",
+                  "Bluetooth 5.3",
+                  "NFC"
+                ]
+              },
+              {
+                "name": "Satellite navigation",
+                "values": [
+                  "GPS",
+                  "Galileo",
+                  "QZSS",
+                  "BeiDou"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "name": "Apple iPhone 14 Pro 1TB Space Black (MQ0T3)",
+      "imageUrl": "https://i.ibb.co/bLX3xqJ/Iphone14-Pro-Black.png",
+      "price": 1999,
+      "deviceFamily": "Apple iPhone 14 Pro",
+      "color": "#000",
+      "modification": "1TB",
+      "brand": "Apple",
+      "shortProperties": [
+        {
+          "name": "Screen size",
+          "value": "6.7",
+          "iconUrl": "https://i.ibb.co/tLYsxj3/1.png"
+        },
+        {
+          "name": "CPU",
+          "value": "Apple A16 Bionic",
+          "iconUrl": "https://i.ibb.co/Zf4hP2Z/2.png"
+        },
+        {
+          "name": "Number of Cores",
+          "value": "6",
+          "iconUrl": "https://i.ibb.co/WVQDGtB/3.png"
+        },
+        {
+          "name": "Main camera",
+          "value": "48-12 -12 MP",
+          "iconUrl": "https://i.ibb.co/gSQfjWs/4.png"
+        },
+        {
+          "name": "Front-camera",
+          "value": "12 MP",
+          "iconUrl": "https://i.ibb.co/ckgtVNg/5.png"
+        },
+        {
+          "name": "Battery capacity",
+          "value": "4323 mAh",
+          "iconUrl": "https://i.ibb.co/12wVdyJ/6.png"
+        }
+      ],
+      "imagesGallery": [
+        "https://i.ibb.co/0m8QDc2/9r7hu0p7b95ifigaywzouswm4fq6lvhw.jpg",
+        "https://i.ibb.co/tp4dqLC/59eoffo7azozd6nvwjxgowvces64x6k1.png",
+        "https://i.ibb.co/K67HQFm/n8bvvrl1dlb6jy81e1dyxotn5omvmcmy.png",
+        "https://i.ibb.co/K29710j/v8nu0daou299k9port8vgjsy0qj3aihl.png",
+        "https://i.ibb.co/9ssrrd7/vyzcyy768ibbl0bqpso9eqd70jh73hpv.jpg",
+        "https://i.ibb.co/vjpvMYZ/xgjou790p7yqefau83l412dgiohjwp46.jpg"
+      ],
+      "details": {
+        "text": "Just as a book is judged by its cover, the first thing you notice when you pick up a modern smartphone is the display. Nothing surprising, because advanced technologies allow you to practically level the display frames and cutouts for the front camera and speaker, leaving no room for bold design solutions. And how good that in such realities Apple everything is fine with displays. Both critics and mass consumers always praise the quality of the picture provided by the products of the Californian brand. And last year's 6.7-inch Retina panels, which had ProMotion, caused real admiration for many.",
+        "detailsArray": [
+          {
+            "title": "Screen",
+            "detailsArray": [
+              {
+                "name": "Screen diagonal",
+                "values": [
+                  "6.7"
+                ]
+              },
+              {
+                "name": "The screen resolution",
+                "values": [
+                  "2796x1290"
+                ]
+              },
+              {
+                "name": "The screen refresh rate",
+                "values": [
+                  "120 Hz"
+                ]
+              },
+              {
+                "name": "The pixel density",
+                "values": [
+                  "460 ppi"
+                ]
+              },
+              {
+                "name": "Screen type",
+                "values": [
+                  "OLED"
+                ]
+              },
+              {
+                "name": "Additionally",
+                "values": [
+                  "Dynamic Island",
+                  "Always-On display",
+                  "HDR display",
+                  "True Tone",
+                  "Wide color (P3)"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "CPU",
+            "detailsArray": [
+              {
+                "name": "CPU",
+                "values": [
+                  "A16 Bionic"
+                ]
+              },
+              {
+                "name": "Number of cores",
+                "values": [
+                  "6"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Memory",
+            "detailsArray": [
+              {
+                "name": "The amount of internal memory",
+                "values": [
+                  "1TB"
+                ]
+              },
+              {
+                "name": "Random access memory",
+                "values": [
+                  "12GB"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Connection",
+            "detailsArray": [
+              {
+                "name": "Standard",
+                "values": [
+                  "5G (sub‑6 GHz)",
+                  "Gigabit Class LTE",
+                  "GSM/EDGE",
+                  "UMTS/HSPA+/DC-HSDPA",
+                  "MIMO"
+                ]
+              },
+              {
+                "name": "SIM card",
+                "values": [
+                  "Nano Sim + eSIM"
+                ]
+              },
+              {
+                "name": "Connector",
+                "values": [
+                  "Lightning"
+                ]
+              },
+              {
+                "name": "Interfaces",
+                "values": [
+                  "Wi‑Fi 6 (802.11ax)",
+                  "Bluetooth 5.3",
+                  "NFC"
+                ]
+              },
+              {
+                "name": "Satellite navigation",
+                "values": [
+                  "GPS",
+                  "Galileo",
+                  "QZSS",
+                  "BeiDou"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "name": "Apple iPhone 14 Pro 256GB Gold (MQ233)",
+      "imageUrl": "https://i.ibb.co/LxpzXdk/Iphone14-Pro-Gold.png",
+      "price": 1549,
+      "sale": 15,
+      "state": "Bestseller",
+      "deviceFamily": "Apple iPhone 14 Pro",
+      "color": "#E1B000",
+      "modification": "256GB",
+      "brand": "Apple",
+      "shortProperties": [
+        {
+          "name": "Screen size",
+          "value": "6.7",
+          "iconUrl": "https://i.ibb.co/tLYsxj3/1.png"
+        },
+        {
+          "name": "CPU",
+          "value": "Apple A16 Bionic",
+          "iconUrl": "https://i.ibb.co/Zf4hP2Z/2.png"
+        },
+        {
+          "name": "Number of Cores",
+          "value": "6",
+          "iconUrl": "https://i.ibb.co/WVQDGtB/3.png"
+        },
+        {
+          "name": "Main camera",
+          "value": "48-12 -12 MP",
+          "iconUrl": "https://i.ibb.co/gSQfjWs/4.png"
+        },
+        {
+          "name": "Front-camera",
+          "value": "12 MP",
+          "iconUrl": "https://i.ibb.co/ckgtVNg/5.png"
+        },
+        {
+          "name": "Battery capacity",
+          "value": "4323 mAh",
+          "iconUrl": "https://i.ibb.co/12wVdyJ/6.png"
+        }
+      ],
+      "imagesGallery": [
+        "https://i.ibb.co/TtgyWKt/30064951bb.jpg",
+        "https://i.ibb.co/pf0ZWzp/30064951bb1.jpg",
+        "https://i.ibb.co/YQCcsY2/30064951bb2.jpg"
+      ],
+      "details": {
+        "text": "Just as a book is judged by its cover, the first thing you notice when you pick up a modern smartphone is the display. Nothing surprising, because advanced technologies allow you to practically level the display frames and cutouts for the front camera and speaker, leaving no room for bold design solutions. And how good that in such realities Apple everything is fine with displays. Both critics and mass consumers always praise the quality of the picture provided by the products of the Californian brand. And last year's 6.7-inch Retina panels, which had ProMotion, caused real admiration for many.",
+        "detailsArray": [
+          {
+            "title": "Screen",
+            "detailsArray": [
+              {
+                "name": "Screen diagonal",
+                "values": [
+                  "6.7"
+                ]
+              },
+              {
+                "name": "The screen resolution",
+                "values": [
+                  "2796x1290"
+                ]
+              },
+              {
+                "name": "The screen refresh rate",
+                "values": [
+                  "120 Hz"
+                ]
+              },
+              {
+                "name": "The pixel density",
+                "values": [
+                  "460 ppi"
+                ]
+              },
+              {
+                "name": "Screen type",
+                "values": [
+                  "OLED"
+                ]
+              },
+              {
+                "name": "Additionally",
+                "values": [
+                  "Dynamic Island",
+                  "Always-On display",
+                  "HDR display",
+                  "True Tone",
+                  "Wide color (P3)"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "CPU",
+            "detailsArray": [
+              {
+                "name": "CPU",
+                "values": [
+                  "A16 Bionic"
+                ]
+              },
+              {
+                "name": "Number of cores",
+                "values": [
+                  "6"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Memory",
+            "detailsArray": [
+              {
+                "name": "The amount of internal memory",
+                "values": [
+                  "256GB"
+                ]
+              },
+              {
+                "name": "Random access memory",
+                "values": [
+                  "12GB"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Connection",
+            "detailsArray": [
+              {
+                "name": "Standard",
+                "values": [
+                  "5G (sub‑6 GHz)",
+                  "Gigabit Class LTE",
+                  "GSM/EDGE",
+                  "UMTS/HSPA+/DC-HSDPA",
+                  "MIMO"
+                ]
+              },
+              {
+                "name": "SIM card",
+                "values": [
+                  "Nano Sim + eSIM"
+                ]
+              },
+              {
+                "name": "Connector",
+                "values": [
+                  "Lightning"
+                ]
+              },
+              {
+                "name": "Interfaces",
+                "values": [
+                  "Wi‑Fi 6 (802.11ax)",
+                  "Bluetooth 5.3",
+                  "NFC"
+                ]
+              },
+              {
+                "name": "Satellite navigation",
+                "values": [
+                  "GPS",
+                  "Galileo",
+                  "QZSS",
+                  "BeiDou"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "name": "Apple iPhone 14 Pro 512GB Gold (MQ233)",
+      "imageUrl": "https://i.ibb.co/LxpzXdk/Iphone14-Pro-Gold.png",
+      "price": 1859,
+      "state": "Featured Products",
+      "deviceFamily": "Apple iPhone 14 Pro",
+      "color": "#E1B000",
+      "modification": "512GB",
+      "brand": "Apple",
+      "shortProperties": [
+        {
+          "name": "Screen size",
+          "value": "6.7",
+          "iconUrl": "https://i.ibb.co/tLYsxj3/1.png"
+        },
+        {
+          "name": "CPU",
+          "value": "Apple A16 Bionic",
+          "iconUrl": "https://i.ibb.co/Zf4hP2Z/2.png"
+        },
+        {
+          "name": "Number of Cores",
+          "value": "6",
+          "iconUrl": "https://i.ibb.co/WVQDGtB/3.png"
+        },
+        {
+          "name": "Main camera",
+          "value": "48-12 -12 MP",
+          "iconUrl": "https://i.ibb.co/gSQfjWs/4.png"
+        },
+        {
+          "name": "Front-camera",
+          "value": "12 MP",
+          "iconUrl": "https://i.ibb.co/ckgtVNg/5.png"
+        },
+        {
+          "name": "Battery capacity",
+          "value": "4323 mAh",
+          "iconUrl": "https://i.ibb.co/12wVdyJ/6.png"
+        }
+      ],
+      "imagesGallery": [
+        "https://i.ibb.co/TtgyWKt/30064951bb.jpg",
+        "https://i.ibb.co/pf0ZWzp/30064951bb1.jpg",
+        "https://i.ibb.co/YQCcsY2/30064951bb2.jpg"
+      ],
+      "details": {
+        "text": "Just as a book is judged by its cover, the first thing you notice when you pick up a modern smartphone is the display. Nothing surprising, because advanced technologies allow you to practically level the display frames and cutouts for the front camera and speaker, leaving no room for bold design solutions. And how good that in such realities Apple everything is fine with displays. Both critics and mass consumers always praise the quality of the picture provided by the products of the Californian brand. And last year's 6.7-inch Retina panels, which had ProMotion, caused real admiration for many.",
+        "detailsArray": [
+          {
+            "title": "Screen",
+            "detailsArray": [
+              {
+                "name": "Screen diagonal",
+                "values": [
+                  "6.7"
+                ]
+              },
+              {
+                "name": "The screen resolution",
+                "values": [
+                  "2796x1290"
+                ]
+              },
+              {
+                "name": "The screen refresh rate",
+                "values": [
+                  "120 Hz"
+                ]
+              },
+              {
+                "name": "The pixel density",
+                "values": [
+                  "460 ppi"
+                ]
+              },
+              {
+                "name": "Screen type",
+                "values": [
+                  "OLED"
+                ]
+              },
+              {
+                "name": "Additionally",
+                "values": [
+                  "Dynamic Island",
+                  "Always-On display",
+                  "HDR display",
+                  "True Tone",
+                  "Wide color (P3)"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "CPU",
+            "detailsArray": [
+              {
+                "name": "CPU",
+                "values": [
+                  "A16 Bionic"
+                ]
+              },
+              {
+                "name": "Number of cores",
+                "values": [
+                  "6"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Memory",
+            "detailsArray": [
+              {
+                "name": "The amount of internal memory",
+                "values": [
+                  "512GB"
+                ]
+              },
+              {
+                "name": "Random access memory",
+                "values": [
+                  "12GB"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Connection",
+            "detailsArray": [
+              {
+                "name": "Standard",
+                "values": [
+                  "5G (sub‑6 GHz)",
+                  "Gigabit Class LTE",
+                  "GSM/EDGE",
+                  "UMTS/HSPA+/DC-HSDPA",
+                  "MIMO"
+                ]
+              },
+              {
+                "name": "SIM card",
+                "values": [
+                  "Nano Sim + eSIM"
+                ]
+              },
+              {
+                "name": "Connector",
+                "values": [
+                  "Lightning"
+                ]
+              },
+              {
+                "name": "Interfaces",
+                "values": [
+                  "Wi‑Fi 6 (802.11ax)",
+                  "Bluetooth 5.3",
+                  "NFC"
+                ]
+              },
+              {
+                "name": "Satellite navigation",
+                "values": [
+                  "GPS",
+                  "Galileo",
+                  "QZSS",
+                  "BeiDou"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "name": "Apple iPhone 14 Pro 1TB Gold (MQ2V3)",
+      "imageUrl": "https://i.ibb.co/LxpzXdk/Iphone14-Pro-Gold.png",
+      "price": 2249,
+      "deviceFamily": "Apple iPhone 14 Pro",
+      "color": "#E1B000",
+      "modification": "1TB",
+      "brand": "Apple",
+      "shortProperties": [
+        {
+          "name": "Screen size",
+          "value": "6.7",
+          "iconUrl": "https://i.ibb.co/tLYsxj3/1.png"
+        },
+        {
+          "name": "CPU",
+          "value": "Apple A16 Bionic",
+          "iconUrl": "https://i.ibb.co/Zf4hP2Z/2.png"
+        },
+        {
+          "name": "Number of Cores",
+          "value": "6",
+          "iconUrl": "https://i.ibb.co/WVQDGtB/3.png"
+        },
+        {
+          "name": "Main camera",
+          "value": "48-12 -12 MP",
+          "iconUrl": "https://i.ibb.co/gSQfjWs/4.png"
+        },
+        {
+          "name": "Front-camera",
+          "value": "12 MP",
+          "iconUrl": "https://i.ibb.co/ckgtVNg/5.png"
+        },
+        {
+          "name": "Battery capacity",
+          "value": "4323 mAh",
+          "iconUrl": "https://i.ibb.co/12wVdyJ/6.png"
+        }
+      ],
+      "imagesGallery": [
+        "https://i.ibb.co/TtgyWKt/30064951bb.jpg",
+        "https://i.ibb.co/pf0ZWzp/30064951bb1.jpg",
+        "https://i.ibb.co/YQCcsY2/30064951bb2.jpg"
+      ],
+      "details": {
+        "text": "Just as a book is judged by its cover, the first thing you notice when you pick up a modern smartphone is the display. Nothing surprising, because advanced technologies allow you to practically level the display frames and cutouts for the front camera and speaker, leaving no room for bold design solutions. And how good that in such realities Apple everything is fine with displays. Both critics and mass consumers always praise the quality of the picture provided by the products of the Californian brand. And last year's 6.7-inch Retina panels, which had ProMotion, caused real admiration for many.",
+        "detailsArray": [
+          {
+            "title": "Screen",
+            "detailsArray": [
+              {
+                "name": "Screen diagonal",
+                "values": [
+                  "6.7"
+                ]
+              },
+              {
+                "name": "The screen resolution",
+                "values": [
+                  "2796x1290"
+                ]
+              },
+              {
+                "name": "The screen refresh rate",
+                "values": [
+                  "120 Hz"
+                ]
+              },
+              {
+                "name": "The pixel density",
+                "values": [
+                  "460 ppi"
+                ]
+              },
+              {
+                "name": "Screen type",
+                "values": [
+                  "OLED"
+                ]
+              },
+              {
+                "name": "Additionally",
+                "values": [
+                  "Dynamic Island",
+                  "Always-On display",
+                  "HDR display",
+                  "True Tone",
+                  "Wide color (P3)"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "CPU",
+            "detailsArray": [
+              {
+                "name": "CPU",
+                "values": [
+                  "A16 Bionic"
+                ]
+              },
+              {
+                "name": "Number of cores",
+                "values": [
+                  "6"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Memory",
+            "detailsArray": [
+              {
+                "name": "The amount of internal memory",
+                "values": [
+                  "1TB"
+                ]
+              },
+              {
+                "name": "Random access memory",
+                "values": [
+                  "12GB"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Connection",
+            "detailsArray": [
+              {
+                "name": "Standard",
+                "values": [
+                  "5G (sub‑6 GHz)",
+                  "Gigabit Class LTE",
+                  "GSM/EDGE",
+                  "UMTS/HSPA+/DC-HSDPA",
+                  "MIMO"
+                ]
+              },
+              {
+                "name": "SIM card",
+                "values": [
+                  "Nano Sim + eSIM"
+                ]
+              },
+              {
+                "name": "Connector",
+                "values": [
+                  "Lightning"
+                ]
+              },
+              {
+                "name": "Interfaces",
+                "values": [
+                  "Wi‑Fi 6 (802.11ax)",
+                  "Bluetooth 5.3",
+                  "NFC"
+                ]
+              },
+              {
+                "name": "Satellite navigation",
+                "values": [
+                  "GPS",
+                  "Galileo",
+                  "QZSS",
+                  "BeiDou"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "name": "Apple iPhone 14 Pro 128GB Deep Purple (MQ0G3)",
+      "imageUrl": "https://i.ibb.co/rHjCFFN/Iphone14-Pro-Purple.png",
+      "price": 1449,
+      "state": "New Arrival",
+      "deviceFamily": "Apple iPhone 14 Pro",
+      "color": "#781DBC",
+      "modification": "128GB",
+      "brand": "Apple",
+      "shortProperties": [
+        {
+          "name": "Screen size",
+          "value": "6.7",
+          "iconUrl": "https://i.ibb.co/tLYsxj3/1.png"
+        },
+        {
+          "name": "CPU",
+          "value": "Apple A16 Bionic",
+          "iconUrl": "https://i.ibb.co/Zf4hP2Z/2.png"
+        },
+        {
+          "name": "Number of Cores",
+          "value": "6",
+          "iconUrl": "https://i.ibb.co/WVQDGtB/3.png"
+        },
+        {
+          "name": "Main camera",
+          "value": "48-12 -12 MP",
+          "iconUrl": "https://i.ibb.co/gSQfjWs/4.png"
+        },
+        {
+          "name": "Front-camera",
+          "value": "12 MP",
+          "iconUrl": "https://i.ibb.co/ckgtVNg/5.png"
+        },
+        {
+          "name": "Battery capacity",
+          "value": "4323 mAh",
+          "iconUrl": "https://i.ibb.co/12wVdyJ/6.png"
+        }
+      ],
+      "imagesGallery": [
+        "https://i.ibb.co/F613kSL/iphone14pro1.png",
+        "https://i.ibb.co/9960fqS/iphone14pro2.png",
+        "https://i.ibb.co/nBvBKSf/iphone14pro3.png",
+        "https://i.ibb.co/3Nt780d/iphone14pro4.png"
+      ],
+      "details": {
+        "text": "Just as a book is judged by its cover, the first thing you notice when you pick up a modern smartphone is the display. Nothing surprising, because advanced technologies allow you to practically level the display frames and cutouts for the front camera and speaker, leaving no room for bold design solutions. And how good that in such realities Apple everything is fine with displays. Both critics and mass consumers always praise the quality of the picture provided by the products of the Californian brand. And last year's 6.7-inch Retina panels, which had ProMotion, caused real admiration for many.",
+        "detailsArray": [
+          {
+            "title": "Screen",
+            "detailsArray": [
+              {
+                "name": "Screen diagonal",
+                "values": [
+                  "6.7"
+                ]
+              },
+              {
+                "name": "The screen resolution",
+                "values": [
+                  "2796x1290"
+                ]
+              },
+              {
+                "name": "The screen refresh rate",
+                "values": [
+                  "120 Hz"
+                ]
+              },
+              {
+                "name": "The pixel density",
+                "values": [
+                  "460 ppi"
+                ]
+              },
+              {
+                "name": "Screen type",
+                "values": [
+                  "OLED"
+                ]
+              },
+              {
+                "name": "Additionally",
+                "values": [
+                  "Dynamic Island",
+                  "Always-On display",
+                  "HDR display",
+                  "True Tone",
+                  "Wide color (P3)"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "CPU",
+            "detailsArray": [
+              {
+                "name": "CPU",
+                "values": [
+                  "A16 Bionic"
+                ]
+              },
+              {
+                "name": "Number of cores",
+                "values": [
+                  "6"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Memory",
+            "detailsArray": [
+              {
+                "name": "The amount of internal memory",
+                "values": [
+                  "128GB"
+                ]
+              },
+              {
+                "name": "Random access memory",
+                "values": [
+                  "12GB"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Connection",
+            "detailsArray": [
+              {
+                "name": "Standard",
+                "values": [
+                  "5G (sub‑6 GHz)",
+                  "Gigabit Class LTE",
+                  "GSM/EDGE",
+                  "UMTS/HSPA+/DC-HSDPA",
+                  "MIMO"
+                ]
+              },
+              {
+                "name": "SIM card",
+                "values": [
+                  "Nano Sim + eSIM"
+                ]
+              },
+              {
+                "name": "Connector",
+                "values": [
+                  "Lightning"
+                ]
+              },
+              {
+                "name": "Interfaces",
+                "values": [
+                  "Wi‑Fi 6 (802.11ax)",
+                  "Bluetooth 5.3",
+                  "NFC"
+                ]
+              },
+              {
+                "name": "Satellite navigation",
+                "values": [
+                  "GPS",
+                  "Galileo",
+                  "QZSS",
+                  "BeiDou"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 24,
+      "name": "Apple iPhone 14 Pro 256GB Deep Purple (MQ0G3)",
+      "imageUrl": "https://i.ibb.co/rHjCFFN/Iphone14-Pro-Purple.png",
+      "price": 1849,
+      "state": "Featured Products",
+      "deviceFamily": "Apple iPhone 14 Pro",
+      "color": "#781DBC",
+      "modification": "256GB",
+      "brand": "Apple",
+      "shortProperties": [
+        {
+          "name": "Screen size",
+          "value": "6.7",
+          "iconUrl": "https://i.ibb.co/tLYsxj3/1.png"
+        },
+        {
+          "name": "CPU",
+          "value": "Apple A16 Bionic",
+          "iconUrl": "https://i.ibb.co/Zf4hP2Z/2.png"
+        },
+        {
+          "name": "Number of Cores",
+          "value": "6",
+          "iconUrl": "https://i.ibb.co/WVQDGtB/3.png"
+        },
+        {
+          "name": "Main camera",
+          "value": "48-12 -12 MP",
+          "iconUrl": "https://i.ibb.co/gSQfjWs/4.png"
+        },
+        {
+          "name": "Front-camera",
+          "value": "12 MP",
+          "iconUrl": "https://i.ibb.co/ckgtVNg/5.png"
+        },
+        {
+          "name": "Battery capacity",
+          "value": "4323 mAh",
+          "iconUrl": "https://i.ibb.co/12wVdyJ/6.png"
+        }
+      ],
+      "imagesGallery": [
+        "https://i.ibb.co/F613kSL/iphone14pro1.png",
+        "https://i.ibb.co/9960fqS/iphone14pro2.png",
+        "https://i.ibb.co/nBvBKSf/iphone14pro3.png",
+        "https://i.ibb.co/3Nt780d/iphone14pro4.png"
+      ],
+      "details": {
+        "text": "Just as a book is judged by its cover, the first thing you notice when you pick up a modern smartphone is the display. Nothing surprising, because advanced technologies allow you to practically level the display frames and cutouts for the front camera and speaker, leaving no room for bold design solutions. And how good that in such realities Apple everything is fine with displays. Both critics and mass consumers always praise the quality of the picture provided by the products of the Californian brand. And last year's 6.7-inch Retina panels, which had ProMotion, caused real admiration for many.",
+        "detailsArray": [
+          {
+            "title": "Screen",
+            "detailsArray": [
+              {
+                "name": "Screen diagonal",
+                "values": [
+                  "6.7"
+                ]
+              },
+              {
+                "name": "The screen resolution",
+                "values": [
+                  "2796x1290"
+                ]
+              },
+              {
+                "name": "The screen refresh rate",
+                "values": [
+                  "120 Hz"
+                ]
+              },
+              {
+                "name": "The pixel density",
+                "values": [
+                  "460 ppi"
+                ]
+              },
+              {
+                "name": "Screen type",
+                "values": [
+                  "OLED"
+                ]
+              },
+              {
+                "name": "Additionally",
+                "values": [
+                  "Dynamic Island",
+                  "Always-On display",
+                  "HDR display",
+                  "True Tone",
+                  "Wide color (P3)"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "CPU",
+            "detailsArray": [
+              {
+                "name": "CPU",
+                "values": [
+                  "A16 Bionic"
+                ]
+              },
+              {
+                "name": "Number of cores",
+                "values": [
+                  "6"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Memory",
+            "detailsArray": [
+              {
+                "name": "The amount of internal memory",
+                "values": [
+                  "256GB"
+                ]
+              },
+              {
+                "name": "Random access memory",
+                "values": [
+                  "12GB"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Connection",
+            "detailsArray": [
+              {
+                "name": "Standard",
+                "values": [
+                  "5G (sub‑6 GHz)",
+                  "Gigabit Class LTE",
+                  "GSM/EDGE",
+                  "UMTS/HSPA+/DC-HSDPA",
+                  "MIMO"
+                ]
+              },
+              {
+                "name": "SIM card",
+                "values": [
+                  "Nano Sim + eSIM"
+                ]
+              },
+              {
+                "name": "Connector",
+                "values": [
+                  "Lightning"
+                ]
+              },
+              {
+                "name": "Interfaces",
+                "values": [
+                  "Wi‑Fi 6 (802.11ax)",
+                  "Bluetooth 5.3",
+                  "NFC"
+                ]
+              },
+              {
+                "name": "Satellite navigation",
+                "values": [
+                  "GPS",
+                  "Galileo",
+                  "QZSS",
+                  "BeiDou"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "name": "Apple iPhone 14 Pro 512GB Deep Purple (MQ0G3)",
+      "imageUrl": "https://i.ibb.co/rHjCFFN/Iphone14-Pro-Purple.png",
+      "price": 1999,
+      "deviceFamily": "Apple iPhone 14 Pro",
+      "color": "#781DBC",
+      "modification": "512GB",
+      "brand": "Apple",
+      "shortProperties": [
+        {
+          "name": "Screen size",
+          "value": "6.7",
+          "iconUrl": "https://i.ibb.co/tLYsxj3/1.png"
+        },
+        {
+          "name": "CPU",
+          "value": "Apple A16 Bionic",
+          "iconUrl": "https://i.ibb.co/Zf4hP2Z/2.png"
+        },
+        {
+          "name": "Number of Cores",
+          "value": "6",
+          "iconUrl": "https://i.ibb.co/WVQDGtB/3.png"
+        },
+        {
+          "name": "Main camera",
+          "value": "48-12 -12 MP",
+          "iconUrl": "https://i.ibb.co/gSQfjWs/4.png"
+        },
+        {
+          "name": "Front-camera",
+          "value": "12 MP",
+          "iconUrl": "https://i.ibb.co/ckgtVNg/5.png"
+        },
+        {
+          "name": "Battery capacity",
+          "value": "4323 mAh",
+          "iconUrl": "https://i.ibb.co/12wVdyJ/6.png"
+        }
+      ],
+      "imagesGallery": [
+        "https://i.ibb.co/F613kSL/iphone14pro1.png",
+        "https://i.ibb.co/9960fqS/iphone14pro2.png",
+        "https://i.ibb.co/nBvBKSf/iphone14pro3.png",
+        "https://i.ibb.co/3Nt780d/iphone14pro4.png"
+      ],
+      "details": {
+        "text": "Just as a book is judged by its cover, the first thing you notice when you pick up a modern smartphone is the display. Nothing surprising, because advanced technologies allow you to practically level the display frames and cutouts for the front camera and speaker, leaving no room for bold design solutions. And how good that in such realities Apple everything is fine with displays. Both critics and mass consumers always praise the quality of the picture provided by the products of the Californian brand. And last year's 6.7-inch Retina panels, which had ProMotion, caused real admiration for many.",
+        "detailsArray": [
+          {
+            "title": "Screen",
+            "detailsArray": [
+              {
+                "name": "Screen diagonal",
+                "values": [
+                  "6.7"
+                ]
+              },
+              {
+                "name": "The screen resolution",
+                "values": [
+                  "2796x1290"
+                ]
+              },
+              {
+                "name": "The screen refresh rate",
+                "values": [
+                  "120 Hz"
+                ]
+              },
+              {
+                "name": "The pixel density",
+                "values": [
+                  "460 ppi"
+                ]
+              },
+              {
+                "name": "Screen type",
+                "values": [
+                  "OLED"
+                ]
+              },
+              {
+                "name": "Additionally",
+                "values": [
+                  "Dynamic Island",
+                  "Always-On display",
+                  "HDR display",
+                  "True Tone",
+                  "Wide color (P3)"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "CPU",
+            "detailsArray": [
+              {
+                "name": "CPU",
+                "values": [
+                  "A16 Bionic"
+                ]
+              },
+              {
+                "name": "Number of cores",
+                "values": [
+                  "6"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Memory",
+            "detailsArray": [
+              {
+                "name": "The amount of internal memory",
+                "values": [
+                  "512GB"
+                ]
+              },
+              {
+                "name": "Random access memory",
+                "values": [
+                  "12GB"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Connection",
+            "detailsArray": [
+              {
+                "name": "Standard",
+                "values": [
+                  "5G (sub‑6 GHz)",
+                  "Gigabit Class LTE",
+                  "GSM/EDGE",
+                  "UMTS/HSPA+/DC-HSDPA",
+                  "MIMO"
+                ]
+              },
+              {
+                "name": "SIM card",
+                "values": [
+                  "Nano Sim + eSIM"
+                ]
+              },
+              {
+                "name": "Connector",
+                "values": [
+                  "Lightning"
+                ]
+              },
+              {
+                "name": "Interfaces",
+                "values": [
+                  "Wi‑Fi 6 (802.11ax)",
+                  "Bluetooth 5.3",
+                  "NFC"
+                ]
+              },
+              {
+                "name": "Satellite navigation",
+                "values": [
+                  "GPS",
+                  "Galileo",
+                  "QZSS",
+                  "BeiDou"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "name": "Apple iPhone 14 Pro 1TB Deep Purple (MQ0G3)",
+      "imageUrl": "https://i.ibb.co/rHjCFFN/Iphone14-Pro-Purple.png",
+      "price": 2199,
+      "state": "Bestseller",
+      "deviceFamily": "Apple iPhone 14 Pro",
+      "color": "#781DBC",
+      "modification": "1TB",
+      "brand": "Apple",
+      "shortProperties": [
+        {
+          "name": "Screen size",
+          "value": "6.7",
+          "iconUrl": "https://i.ibb.co/tLYsxj3/1.png"
+        },
+        {
+          "name": "CPU",
+          "value": "Apple A16 Bionic",
+          "iconUrl": "https://i.ibb.co/Zf4hP2Z/2.png"
+        },
+        {
+          "name": "Number of Cores",
+          "value": "6",
+          "iconUrl": "https://i.ibb.co/WVQDGtB/3.png"
+        },
+        {
+          "name": "Main camera",
+          "value": "48-12 -12 MP",
+          "iconUrl": "https://i.ibb.co/gSQfjWs/4.png"
+        },
+        {
+          "name": "Front-camera",
+          "value": "12 MP",
+          "iconUrl": "https://i.ibb.co/ckgtVNg/5.png"
+        },
+        {
+          "name": "Battery capacity",
+          "value": "4323 mAh",
+          "iconUrl": "https://i.ibb.co/12wVdyJ/6.png"
+        }
+      ],
+      "imagesGallery": [
+        "https://i.ibb.co/F613kSL/iphone14pro1.png",
+        "https://i.ibb.co/9960fqS/iphone14pro2.png",
+        "https://i.ibb.co/nBvBKSf/iphone14pro3.png",
+        "https://i.ibb.co/3Nt780d/iphone14pro4.png"
+      ],
+      "details": {
+        "text": "Just as a book is judged by its cover, the first thing you notice when you pick up a modern smartphone is the display. Nothing surprising, because advanced technologies allow you to practically level the display frames and cutouts for the front camera and speaker, leaving no room for bold design solutions. And how good that in such realities Apple everything is fine with displays. Both critics and mass consumers always praise the quality of the picture provided by the products of the Californian brand. And last year's 6.7-inch Retina panels, which had ProMotion, caused real admiration for many.",
+        "detailsArray": [
+          {
+            "title": "Screen",
+            "detailsArray": [
+              {
+                "name": "Screen diagonal",
+                "values": [
+                  "6.7"
+                ]
+              },
+              {
+                "name": "The screen resolution",
+                "values": [
+                  "2796x1290"
+                ]
+              },
+              {
+                "name": "The screen refresh rate",
+                "values": [
+                  "120 Hz"
+                ]
+              },
+              {
+                "name": "The pixel density",
+                "values": [
+                  "460 ppi"
+                ]
+              },
+              {
+                "name": "Screen type",
+                "values": [
+                  "OLED"
+                ]
+              },
+              {
+                "name": "Additionally",
+                "values": [
+                  "Dynamic Island",
+                  "Always-On display",
+                  "HDR display",
+                  "True Tone",
+                  "Wide color (P3)"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "CPU",
+            "detailsArray": [
+              {
+                "name": "CPU",
+                "values": [
+                  "A16 Bionic"
+                ]
+              },
+              {
+                "name": "Number of cores",
+                "values": [
+                  "6"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Memory",
+            "detailsArray": [
+              {
+                "name": "The amount of internal memory",
+                "values": [
+                  "1TB"
+                ]
+              },
+              {
+                "name": "Random access memory",
+                "values": [
+                  "12GB"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Connection",
+            "detailsArray": [
+              {
+                "name": "Standard",
+                "values": [
+                  "5G (sub‑6 GHz)",
+                  "Gigabit Class LTE",
+                  "GSM/EDGE",
+                  "UMTS/HSPA+/DC-HSDPA",
+                  "MIMO"
+                ]
+              },
+              {
+                "name": "SIM card",
+                "values": [
+                  "Nano Sim + eSIM"
+                ]
+              },
+              {
+                "name": "Connector",
+                "values": [
+                  "Lightning"
+                ]
+              },
+              {
+                "name": "Interfaces",
+                "values": [
+                  "Wi‑Fi 6 (802.11ax)",
+                  "Bluetooth 5.3",
+                  "NFC"
+                ]
+              },
+              {
+                "name": "Satellite navigation",
+                "values": [
+                  "GPS",
+                  "Galileo",
+                  "QZSS",
+                  "BeiDou"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 27,
+      "name": "Apple iPhone 14 Pro 128GB White (MQ2V3)",
+      "imageUrl": "https://i.ibb.co/ZYdM5Kp/Iphone14-Pro-White.png",
+      "price": 1399,
+      "state": "Featured Products",
+      "deviceFamily": "Apple iPhone 14 Pro",
+      "color": "#E8E8E8",
+      "modification": "128GB",
+      "brand": "Apple",
+      "shortProperties": [
+        {
+          "name": "Screen size",
+          "value": "6.7",
+          "iconUrl": "https://i.ibb.co/tLYsxj3/1.png"
+        },
+        {
+          "name": "CPU",
+          "value": "Apple A16 Bionic",
+          "iconUrl": "https://i.ibb.co/Zf4hP2Z/2.png"
+        },
+        {
+          "name": "Number of Cores",
+          "value": "6",
+          "iconUrl": "https://i.ibb.co/WVQDGtB/3.png"
+        },
+        {
+          "name": "Main camera",
+          "value": "48-12 -12 MP",
+          "iconUrl": "https://i.ibb.co/gSQfjWs/4.png"
+        },
+        {
+          "name": "Front-camera",
+          "value": "12 MP",
+          "iconUrl": "https://i.ibb.co/ckgtVNg/5.png"
+        },
+        {
+          "name": "Battery capacity",
+          "value": "4323 mAh",
+          "iconUrl": "https://i.ibb.co/12wVdyJ/6.png"
+        }
+      ],
+      "imagesGallery": [
+        "https://i.ibb.co/WWnp5ys/4kuoumwwwq0gfeqyx34w9yckdyx2qics.png",
+        "https://i.ibb.co/L8tGQ67/gbw05fazzv5b2nc55f4iek3uybpp4rbd.jpg",
+        "https://i.ibb.co/zhcSVjH/hbnqnya3ao1ci64yjvc7pxlmkj53btut.jpg",
+        "https://i.ibb.co/d4jPN2L/mwrd2b2esekfxxies8dpffm7x31l8odp.png",
+        "https://i.ibb.co/VYXsrG0/uy6kxzw626w6fib78kv1q8cz2rdtxdw7.png"
+      ],
+      "details": {
+        "text": "Just as a book is judged by its cover, the first thing you notice when you pick up a modern smartphone is the display. Nothing surprising, because advanced technologies allow you to practically level the display frames and cutouts for the front camera and speaker, leaving no room for bold design solutions. And how good that in such realities Apple everything is fine with displays. Both critics and mass consumers always praise the quality of the picture provided by the products of the Californian brand. And last year's 6.7-inch Retina panels, which had ProMotion, caused real admiration for many.",
+        "detailsArray": [
+          {
+            "title": "Screen",
+            "detailsArray": [
+              {
+                "name": "Screen diagonal",
+                "values": [
+                  "6.7"
+                ]
+              },
+              {
+                "name": "The screen resolution",
+                "values": [
+                  "2796x1290"
+                ]
+              },
+              {
+                "name": "The screen refresh rate",
+                "values": [
+                  "120 Hz"
+                ]
+              },
+              {
+                "name": "The pixel density",
+                "values": [
+                  "460 ppi"
+                ]
+              },
+              {
+                "name": "Screen type",
+                "values": [
+                  "OLED"
+                ]
+              },
+              {
+                "name": "Additionally",
+                "values": [
+                  "Dynamic Island",
+                  "Always-On display",
+                  "HDR display",
+                  "True Tone",
+                  "Wide color (P3)"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "CPU",
+            "detailsArray": [
+              {
+                "name": "CPU",
+                "values": [
+                  "A16 Bionic"
+                ]
+              },
+              {
+                "name": "Number of cores",
+                "values": [
+                  "6"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Memory",
+            "detailsArray": [
+              {
+                "name": "The amount of internal memory",
+                "values": [
+                  "128GB"
+                ]
+              },
+              {
+                "name": "Random access memory",
+                "values": [
+                  "12GB"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Connection",
+            "detailsArray": [
+              {
+                "name": "Standard",
+                "values": [
+                  "5G (sub‑6 GHz)",
+                  "Gigabit Class LTE",
+                  "GSM/EDGE",
+                  "UMTS/HSPA+/DC-HSDPA",
+                  "MIMO"
+                ]
+              },
+              {
+                "name": "SIM card",
+                "values": [
+                  "Nano Sim + eSIM"
+                ]
+              },
+              {
+                "name": "Connector",
+                "values": [
+                  "Lightning"
+                ]
+              },
+              {
+                "name": "Interfaces",
+                "values": [
+                  "Wi‑Fi 6 (802.11ax)",
+                  "Bluetooth 5.3",
+                  "NFC"
+                ]
+              },
+              {
+                "name": "Satellite navigation",
+                "values": [
+                  "GPS",
+                  "Galileo",
+                  "QZSS",
+                  "BeiDou"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 28,
+      "name": "Apple iPhone 14 Pro 256GB White (MQ2V3)",
+      "imageUrl": "https://i.ibb.co/ZYdM5Kp/Iphone14-Pro-White.png",
+      "price": 1499,
+      "deviceFamily": "Apple iPhone 14 Pro",
+      "color": "#E8E8E8",
+      "modification": "256GB",
+      "brand": "Apple",
+      "shortProperties": [
+        {
+          "name": "Screen size",
+          "value": "6.7",
+          "iconUrl": "https://i.ibb.co/tLYsxj3/1.png"
+        },
+        {
+          "name": "CPU",
+          "value": "Apple A16 Bionic",
+          "iconUrl": "https://i.ibb.co/Zf4hP2Z/2.png"
+        },
+        {
+          "name": "Number of Cores",
+          "value": "6",
+          "iconUrl": "https://i.ibb.co/WVQDGtB/3.png"
+        },
+        {
+          "name": "Main camera",
+          "value": "48-12 -12 MP",
+          "iconUrl": "https://i.ibb.co/gSQfjWs/4.png"
+        },
+        {
+          "name": "Front-camera",
+          "value": "12 MP",
+          "iconUrl": "https://i.ibb.co/ckgtVNg/5.png"
+        },
+        {
+          "name": "Battery capacity",
+          "value": "4323 mAh",
+          "iconUrl": "https://i.ibb.co/12wVdyJ/6.png"
+        }
+      ],
+      "imagesGallery": [
+        "https://i.ibb.co/WWnp5ys/4kuoumwwwq0gfeqyx34w9yckdyx2qics.png",
+        "https://i.ibb.co/L8tGQ67/gbw05fazzv5b2nc55f4iek3uybpp4rbd.jpg",
+        "https://i.ibb.co/zhcSVjH/hbnqnya3ao1ci64yjvc7pxlmkj53btut.jpg",
+        "https://i.ibb.co/d4jPN2L/mwrd2b2esekfxxies8dpffm7x31l8odp.png",
+        "https://i.ibb.co/VYXsrG0/uy6kxzw626w6fib78kv1q8cz2rdtxdw7.png"
+      ],
+      "details": {
+        "text": "Just as a book is judged by its cover, the first thing you notice when you pick up a modern smartphone is the display. Nothing surprising, because advanced technologies allow you to practically level the display frames and cutouts for the front camera and speaker, leaving no room for bold design solutions. And how good that in such realities Apple everything is fine with displays. Both critics and mass consumers always praise the quality of the picture provided by the products of the Californian brand. And last year's 6.7-inch Retina panels, which had ProMotion, caused real admiration for many.",
+        "detailsArray": [
+          {
+            "title": "Screen",
+            "detailsArray": [
+              {
+                "name": "Screen diagonal",
+                "values": [
+                  "6.7"
+                ]
+              },
+              {
+                "name": "The screen resolution",
+                "values": [
+                  "2796x1290"
+                ]
+              },
+              {
+                "name": "The screen refresh rate",
+                "values": [
+                  "120 Hz"
+                ]
+              },
+              {
+                "name": "The pixel density",
+                "values": [
+                  "460 ppi"
+                ]
+              },
+              {
+                "name": "Screen type",
+                "values": [
+                  "OLED"
+                ]
+              },
+              {
+                "name": "Additionally",
+                "values": [
+                  "Dynamic Island",
+                  "Always-On display",
+                  "HDR display",
+                  "True Tone",
+                  "Wide color (P3)"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "CPU",
+            "detailsArray": [
+              {
+                "name": "CPU",
+                "values": [
+                  "A16 Bionic"
+                ]
+              },
+              {
+                "name": "Number of cores",
+                "values": [
+                  "6"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Memory",
+            "detailsArray": [
+              {
+                "name": "The amount of internal memory",
+                "values": [
+                  "256GB"
+                ]
+              },
+              {
+                "name": "Random access memory",
+                "values": [
+                  "12GB"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Connection",
+            "detailsArray": [
+              {
+                "name": "Standard",
+                "values": [
+                  "5G (sub‑6 GHz)",
+                  "Gigabit Class LTE",
+                  "GSM/EDGE",
+                  "UMTS/HSPA+/DC-HSDPA",
+                  "MIMO"
+                ]
+              },
+              {
+                "name": "SIM card",
+                "values": [
+                  "Nano Sim + eSIM"
+                ]
+              },
+              {
+                "name": "Connector",
+                "values": [
+                  "Lightning"
+                ]
+              },
+              {
+                "name": "Interfaces",
+                "values": [
+                  "Wi‑Fi 6 (802.11ax)",
+                  "Bluetooth 5.3",
+                  "NFC"
+                ]
+              },
+              {
+                "name": "Satellite navigation",
+                "values": [
+                  "GPS",
+                  "Galileo",
+                  "QZSS",
+                  "BeiDou"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 29,
+      "name": "Apple iPhone 14 Pro 512GB White (MQ2V3)",
+      "imageUrl": "https://i.ibb.co/ZYdM5Kp/Iphone14-Pro-White.png",
+      "price": 1799,
+      "deviceFamily": "Apple iPhone 14 Pro",
+      "color": "#E8E8E8",
+      "modification": "512GB",
+      "brand": "Apple",
+      "shortProperties": [
+        {
+          "name": "Screen size",
+          "value": "6.7",
+          "iconUrl": "https://i.ibb.co/tLYsxj3/1.png"
+        },
+        {
+          "name": "CPU",
+          "value": "Apple A16 Bionic",
+          "iconUrl": "https://i.ibb.co/Zf4hP2Z/2.png"
+        },
+        {
+          "name": "Number of Cores",
+          "value": "6",
+          "iconUrl": "https://i.ibb.co/WVQDGtB/3.png"
+        },
+        {
+          "name": "Main camera",
+          "value": "48-12 -12 MP",
+          "iconUrl": "https://i.ibb.co/gSQfjWs/4.png"
+        },
+        {
+          "name": "Front-camera",
+          "value": "12 MP",
+          "iconUrl": "https://i.ibb.co/ckgtVNg/5.png"
+        },
+        {
+          "name": "Battery capacity",
+          "value": "4323 mAh",
+          "iconUrl": "https://i.ibb.co/12wVdyJ/6.png"
+        }
+      ],
+      "imagesGallery": [
+        "https://i.ibb.co/WWnp5ys/4kuoumwwwq0gfeqyx34w9yckdyx2qics.png",
+        "https://i.ibb.co/L8tGQ67/gbw05fazzv5b2nc55f4iek3uybpp4rbd.jpg",
+        "https://i.ibb.co/zhcSVjH/hbnqnya3ao1ci64yjvc7pxlmkj53btut.jpg",
+        "https://i.ibb.co/d4jPN2L/mwrd2b2esekfxxies8dpffm7x31l8odp.png",
+        "https://i.ibb.co/VYXsrG0/uy6kxzw626w6fib78kv1q8cz2rdtxdw7.png"
+      ],
+      "details": {
+        "text": "Just as a book is judged by its cover, the first thing you notice when you pick up a modern smartphone is the display. Nothing surprising, because advanced technologies allow you to practically level the display frames and cutouts for the front camera and speaker, leaving no room for bold design solutions. And how good that in such realities Apple everything is fine with displays. Both critics and mass consumers always praise the quality of the picture provided by the products of the Californian brand. And last year's 6.7-inch Retina panels, which had ProMotion, caused real admiration for many.",
+        "detailsArray": [
+          {
+            "title": "Screen",
+            "detailsArray": [
+              {
+                "name": "Screen diagonal",
+                "values": [
+                  "6.7"
+                ]
+              },
+              {
+                "name": "The screen resolution",
+                "values": [
+                  "2796x1290"
+                ]
+              },
+              {
+                "name": "The screen refresh rate",
+                "values": [
+                  "120 Hz"
+                ]
+              },
+              {
+                "name": "The pixel density",
+                "values": [
+                  "460 ppi"
+                ]
+              },
+              {
+                "name": "Screen type",
+                "values": [
+                  "OLED"
+                ]
+              },
+              {
+                "name": "Additionally",
+                "values": [
+                  "Dynamic Island",
+                  "Always-On display",
+                  "HDR display",
+                  "True Tone",
+                  "Wide color (P3)"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "CPU",
+            "detailsArray": [
+              {
+                "name": "CPU",
+                "values": [
+                  "A16 Bionic"
+                ]
+              },
+              {
+                "name": "Number of cores",
+                "values": [
+                  "6"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Memory",
+            "detailsArray": [
+              {
+                "name": "The amount of internal memory",
+                "values": [
+                  "512GB"
+                ]
+              },
+              {
+                "name": "Random access memory",
+                "values": [
+                  "12GB"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Connection",
+            "detailsArray": [
+              {
+                "name": "Standard",
+                "values": [
+                  "5G (sub‑6 GHz)",
+                  "Gigabit Class LTE",
+                  "GSM/EDGE",
+                  "UMTS/HSPA+/DC-HSDPA",
+                  "MIMO"
+                ]
+              },
+              {
+                "name": "SIM card",
+                "values": [
+                  "Nano Sim + eSIM"
+                ]
+              },
+              {
+                "name": "Connector",
+                "values": [
+                  "Lightning"
+                ]
+              },
+              {
+                "name": "Interfaces",
+                "values": [
+                  "Wi‑Fi 6 (802.11ax)",
+                  "Bluetooth 5.3",
+                  "NFC"
+                ]
+              },
+              {
+                "name": "Satellite navigation",
+                "values": [
+                  "GPS",
+                  "Galileo",
+                  "QZSS",
+                  "BeiDou"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 30,
+      "name": "Apple iPhone 14 Pro 1TB White (MQ2V3)",
+      "imageUrl": "https://i.ibb.co/ZYdM5Kp/Iphone14-Pro-White.png",
+      "price": 1999,
+      "sale": 50,
+      "deviceFamily": "Apple iPhone 14 Pro",
+      "color": "#E8E8E8",
+      "modification": "1TB",
+      "brand": "Apple",
+      "shortProperties": [
+        {
+          "name": "Screen size",
+          "value": "6.7",
+          "iconUrl": "https://i.ibb.co/tLYsxj3/1.png"
+        },
+        {
+          "name": "CPU",
+          "value": "Apple A16 Bionic",
+          "iconUrl": "https://i.ibb.co/Zf4hP2Z/2.png"
+        },
+        {
+          "name": "Number of Cores",
+          "value": "6",
+          "iconUrl": "https://i.ibb.co/WVQDGtB/3.png"
+        },
+        {
+          "name": "Main camera",
+          "value": "48-12 -12 MP",
+          "iconUrl": "https://i.ibb.co/gSQfjWs/4.png"
+        },
+        {
+          "name": "Front-camera",
+          "value": "12 MP",
+          "iconUrl": "https://i.ibb.co/ckgtVNg/5.png"
+        },
+        {
+          "name": "Battery capacity",
+          "value": "4323 mAh",
+          "iconUrl": "https://i.ibb.co/12wVdyJ/6.png"
+        }
+      ],
+      "imagesGallery": [
+        "https://i.ibb.co/WWnp5ys/4kuoumwwwq0gfeqyx34w9yckdyx2qics.png",
+        "https://i.ibb.co/L8tGQ67/gbw05fazzv5b2nc55f4iek3uybpp4rbd.jpg",
+        "https://i.ibb.co/zhcSVjH/hbnqnya3ao1ci64yjvc7pxlmkj53btut.jpg",
+        "https://i.ibb.co/d4jPN2L/mwrd2b2esekfxxies8dpffm7x31l8odp.png",
+        "https://i.ibb.co/VYXsrG0/uy6kxzw626w6fib78kv1q8cz2rdtxdw7.png"
+      ],
+      "details": {
+        "text": "Just as a book is judged by its cover, the first thing you notice when you pick up a modern smartphone is the display. Nothing surprising, because advanced technologies allow you to practically level the display frames and cutouts for the front camera and speaker, leaving no room for bold design solutions. And how good that in such realities Apple everything is fine with displays. Both critics and mass consumers always praise the quality of the picture provided by the products of the Californian brand. And last year's 6.7-inch Retina panels, which had ProMotion, caused real admiration for many.",
+        "detailsArray": [
+          {
+            "title": "Screen",
+            "detailsArray": [
+              {
+                "name": "Screen diagonal",
+                "values": [
+                  "6.7"
+                ]
+              },
+              {
+                "name": "The screen resolution",
+                "values": [
+                  "2796x1290"
+                ]
+              },
+              {
+                "name": "The screen refresh rate",
+                "values": [
+                  "120 Hz"
+                ]
+              },
+              {
+                "name": "The pixel density",
+                "values": [
+                  "460 ppi"
+                ]
+              },
+              {
+                "name": "Screen type",
+                "values": [
+                  "OLED"
+                ]
+              },
+              {
+                "name": "Additionally",
+                "values": [
+                  "Dynamic Island",
+                  "Always-On display",
+                  "HDR display",
+                  "True Tone",
+                  "Wide color (P3)"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "CPU",
+            "detailsArray": [
+              {
+                "name": "CPU",
+                "values": [
+                  "A16 Bionic"
+                ]
+              },
+              {
+                "name": "Number of cores",
+                "values": [
+                  "6"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Memory",
+            "detailsArray": [
+              {
+                "name": "The amount of internal memory",
+                "values": [
+                  "1TB"
+                ]
+              },
+              {
+                "name": "Random access memory",
+                "values": [
+                  "12GB"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Connection",
+            "detailsArray": [
+              {
+                "name": "Standard",
+                "values": [
+                  "5G (sub‑6 GHz)",
+                  "Gigabit Class LTE",
+                  "GSM/EDGE",
+                  "UMTS/HSPA+/DC-HSDPA",
+                  "MIMO"
+                ]
+              },
+              {
+                "name": "SIM card",
+                "values": [
+                  "Nano Sim + eSIM"
+                ]
+              },
+              {
+                "name": "Connector",
+                "values": [
+                  "Lightning"
+                ]
+              },
+              {
+                "name": "Interfaces",
+                "values": [
+                  "Wi‑Fi 6 (802.11ax)",
+                  "Bluetooth 5.3",
+                  "NFC"
+                ]
+              },
+              {
+                "name": "Satellite navigation",
+                "values": [
+                  "GPS",
+                  "Galileo",
+                  "QZSS",
+                  "BeiDou"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 31,
+      "name": "Samsung Galaxy Watch6 Classic 47mm Black",
+      "imageUrl": "https://i.ibb.co/gZBGn5z/Samsung-Watch.png",
+      "price": 369,
+      "state": "New Arrival",
+      "deviceFamily": "Samsung Galaxy Watch6 Classic 47mm",
+      "color": "#000",
+      "modification": "47mm",
+      "brand": "Samsung",
+      "shortProperties": [
+        {}
+      ],
+      "imagesGallery": [
+        "https://i.ibb.co/gZBGn5z/Samsung-Watch.png"
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Playstation 5",
+      "imageUrl": "https://i.ibb.co/JRCf7gv/Play-Station.png",
+      "price": 999,
+      "state": "Featured Products",
+      "deviceFamily": "Playstation 5",
+      "color": "#000",
+      "modification": null,
+      "brand": "Playstation",
+      "shortProperties": [
+        {}
+      ],
+      "imagesGallery": [
+        "https://i.ibb.co/JRCf7gv/Play-Station.png"
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Apple Vision Pro",
+      "imageUrl": "https://i.ibb.co/gwLjN3y/Apple-Vision.png",
+      "price": 3549,
+      "state": "Bestseller",
+      "deviceFamily": "Apple Vision Pro",
+      "color": "#000",
+      "modification": null,
+      "brand": "Apple",
+      "shortProperties": [
+        {}
+      ],
+      "imagesGallery": [
+        "https://i.ibb.co/gwLjN3y/Apple-Vision.png"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "MacBook Pro",
+      "imageUrl": "https://i.ibb.co/88PPrn5/MacBook.png",
+      "price": 2549,
+      "state": "Bestseller",
+      "deviceFamily": "MacBook Pro",
+      "color": "#E8E8E8",
+      "modification": "M1",
+      "brand": "Apple",
+      "shortProperties": [
+        {}
+      ],
+      "imagesGallery": [
+        "https://i.ibb.co/88PPrn5/MacBook.png"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Samsung Galaxy 21S Ultra",
+      "imageUrl": "https://i.ibb.co/gP8QKpW/image-41.png",
+      "price": 1699,
+      "state": "Featured Products",
+      "deviceFamily": "Samsung Galaxy 21S Ultra",
+      "color": "#000",
+      "modification": null,
+      "brand": "Samsung",
+      "shortProperties": [
+        {}
+      ],
+      "imagesGallery": [
+        "https://i.ibb.co/gP8QKpW/image-41.png"
+      ]
+    }
+  ],
+  "about": [
+    {
+      "title": "About Us",
+      "text": "Welcome to <b>Cyber</b> - your reliable source for premium electronics. We are a team of enthusiasts, passionate about the latest technological advancements, and striving to bring you the best from the world of high-quality electronics."
+    },
+    {
+      "title": "Our Mission",
+      "text": "Our mission is to provide you with access to the most advanced electronic devices and accessories. We believe that technology can enhance our lives, and therefore we strive to make high-quality electronics accessible to everyone."
+    },
+    {
+      "title": "Our Range",
+      "text": "In our store, you will find a wide range of products - from smartphones and laptops to gaming consoles and home theaters. We collaborate only with leading manufacturers and guarantee that all our products meet the highest quality standards."
+    },
+    {
+      "title": "Our Team",
+      "text": "Our team consists of experienced specialists who are ready to help you with your choice and answer all your questions. We are constantly learning and keeping up with the latest trends in the world of technology to offer you the most current and innovative products."
+    },
+    {
+      "title": "Our Promise",
+      "text": "We promise to provide you with excellent service, fast delivery, and secure payment solutions. Your satisfaction is our main priority, and we are ready to do everything possible to ensure you are pleased with your purchases."
+    },
+    {
+      "title": "",
+      "text": "Thank you for choosing <b>Cyber</b>. We are glad to see you among our customers and hope you enjoy our range of premium electronics. Welcome to the future!"
+    }
+  ],
+  "contacts": [
+    {
+      "title": "Phone",
+      "value": "+7 996 729 15 56"
+    },
+    {
+      "title": "Email",
+      "value": "player7712@mail.ru"
+    },
+    {
+      "title": "Address",
+      "value": "Moscow, Bagrationovsky proezd, 7 building 20B"
+    },
+    {
+      "title": "Postal Code",
+      "value": "117997"
+    },
+    {
+      "title": "Operating Mode",
+      "value": "Daily 10:00-22:00"
+    }
+  ],
+  "documents": [
+    {
+      "title": "Cor.Account",
+      "value": "30101810400000000225"
+    },
+    {
+      "title": "BIC",
+      "value": "044525225"
+    },
+    {
+      "title": "CPP",
+      "value": "773601001"
+    },
+    {
+      "title": "INN",
+      "value": "7707083893"
+    },
+    {
+      "title": "OGRN",
+      "value": "1027700132195"
+    }
+  ],
+  "networks": [
+    {
+      "title": "VKontakte",
+      "contact": "@cyber.ru",
+      "icon": "https://i.ibb.co/rbmWh1H/vk-yj2o1t7n1j4p-32.png"
+    },
+    {
+      "title": "Instagram",
+      "contact": "@CyberStore",
+      "icon": "https://i.ibb.co/zh7Rvkw/logotip-instagram-vtyznosn9smg-32.png"
+    },
+    {
+      "title": "YouTube",
+      "contact": "@yt.cyber.ru",
+      "icon": "https://i.ibb.co/PZpkb6Y/yutub-evjp85nsf41x-32.png"
+    },
+    {
+      "title": "Telegram",
+      "contact": "@CyberStore",
+      "icon": "https://i.ibb.co/wCmVP0k/telegramma-v0b2vhdf1oe4-32.png"
+    }
+  ],
+  "promoCodes": [
+    {
+      "id": "SUPER",
+      "sale": 10
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "productId": 19,
+      "username": "Павел Мурахтанов",
+      "mark": 5,
+      "date": "20 July,2024",
+      "text": "Тестовый текст для отзыва на Apple iPhone 14 Pro от пользователя с ID: 1"
+    },
+    {
+      "id": 2,
+      "productId": 19,
+      "username": "Дмитрий Кашин",
+      "mark": 4,
+      "date": "18 July,2024",
+      "text": "Тестовый текст для отзыва на Apple iPhone 14 Pro от пользователя с ID: 2"
+    },
+    {
+      "id": "32d38f60-4dd8-4967-a4ae-8c5284d82dc4",
+      "text": "Средний отзыв от админа",
+      "mark": 3,
+      "date": "July 23, 2024",
+      "username": "Павел Мурахтанов",
+      "productId": 19
+    },
+    {
+      "id": 3,
+      "productId": 19,
+      "username": "Павел Мурахтанов",
+      "mark": 5,
+      "date": "20 July,2024",
+      "text": "Тестовый текст для отзыва на Apple iPhone 14 Pro от пользователя с ID: 1"
+    },
+    {
+      "id": 4,
+      "productId": 19,
+      "username": "Дмитрий Кашин",
+      "mark": 4,
+      "date": "18 July,2024",
+      "text": "Тестовый текст для отзыва на Apple iPhone 14 Pro от пользователя с ID: 2"
+    },
+    {
+      "id": "32d38f6134-4dd8-4967-a4ae-8c5284d82dc4",
+      "text": "Средний отзыв от админа",
+      "mark": 3,
+      "date": "July 23, 2024",
+      "username": "Павел Мурахтанов",
+      "productId": 19
+    },
+    {
+      "id": 5,
+      "productId": 19,
+      "username": "Павел Мурахтанов",
+      "mark": 5,
+      "date": "20 July,2024",
+      "text": "Тестовый текст для отзыва на Apple iPhone 14 Pro от пользователя с ID: 1"
+    },
+    {
+      "id": 6,
+      "productId": 19,
+      "username": "Дмитрий Кашин",
+      "mark": 4,
+      "date": "18 July,2024",
+      "text": "Тестовый текст для отзыва на Apple iPhone 14 Pro от пользователя с ID: 2"
+    },
+    {
+      "id": "32d38f60-4dd8-4967-a4ae-8c5224d84d82dc4",
+      "text": "Средний отзыв от админа",
+      "mark": 3,
+      "date": "July 23, 2024",
+      "username": "Павел Мурахтанов",
+      "productId": 19
+    }
+  ]
+}
