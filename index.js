@@ -1,60 +1,48 @@
+const express = require("express");
 const fs = require("fs");
-const jsonServer = require("json-server");
-const cors = require("cors");
-// const jwt = require("jsonwebtoken");
 const path = require("path");
+const cors = require("cors");
 
-const server = jsonServer.create();
-server.use(jsonServer.bodyParser);
+const app = express();
+const PORT = process.env.PORT || 8080;
 
-const router = jsonServer.router(path.resolve(__dirname, "db.json"));
+app.use(express.json());
+app.use(cors());
 
-server.use(cors());
+const dbFilePath = path.resolve(__dirname, "db.json");
 
-// Нужно для небольшой задержки, чтобы запрос проходил не мгновенно, имитация реального апи
-server.use(async (req, res, next) => {
-  await new Promise((res) => {
-    setTimeout(res, 800);
-  });
-  next();
-});
-
-// проверяем, авторизован ли пользователь
-// server.use((req, res, next) => {
-//   if (!req.headers.authorization) {
-//     return res.status(403).json({ message: "AUTH ERROR1" });
-//   }
-//
-//   next();
-// });
-
-server.use(jsonServer.defaults());
-
-// Эндпоинт для логина
-server.post("/login", (req, res) => {
-  const { username, password } = req.body;
-
-  const db = JSON.parse(
-    fs.readFileSync(path.resolve(__dirname, "db.json"), "UTF-8"),
-  );
-
-  const { users } = db;
-
-  const userFromBd = users.find(
-    (user) => user.username === username && user.password === password,
-  );
-
-  console.log(userFromBd);
-
-  if (userFromBd) {
-    return res.json(userFromBd);
+app.get("/:collection", (req, res) => {
+  const { collection } = req.params;
+  try {
+    const db = JSON.parse(fs.readFileSync(dbFilePath, "utf-8"));
+    if (db[collection]) {
+      return res.json(db[collection]);
+    }
+    return res.status(404).json({ message: "Collection not found" });
+  } catch (error) {
+    console.error("Error reading DB file:", error);
+    return res.status(500).json({ message: "Internal Server Error" });
   }
-
-  return res.status(403).json({ message: "AUTH ERROR2" });
 });
 
-server.use(router);
+app.post("/login", (req, res) => {
+  const { username, password } = req.body;
+  try {
+    const db = JSON.parse(fs.readFileSync(dbFilePath, "utf-8"));
+    const { users } = db;
+    const userFromDb = users.find(
+      (user) => user.username === username && user.password === password,
+    );
+    if (userFromDb) {
+      return res.json(userFromDb);
+    }
+    return res.status(403).json({ message: "AUTH ERROR" });
+  } catch (error) {
+    console.error("Error reading DB file:", error);
+    return res.status(500).json({ message: "Internal Server Error" });
+  }
+});
 
-server.listen(8080, () => {
-  console.log("server is running on 8080 port");
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
 });
