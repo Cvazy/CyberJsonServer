@@ -13,12 +13,19 @@ const dbFilePath = path.resolve(__dirname, "db.json");
 
 app.get("/:collection", (req, res) => {
   const { collection } = req.params;
+  const query = req.query;
   try {
     const db = JSON.parse(fs.readFileSync(dbFilePath, "utf-8"));
-    if (db[collection]) {
-      return res.json(db[collection]);
+    if (!db[collection]) {
+      return res.status(404).json({ message: "Collection not found" });
     }
-    return res.status(404).json({ message: "Collection not found" });
+    let data = db[collection];
+
+    Object.keys(query).forEach((key) => {
+      data = data.filter((item) => item[key]?.toString() === query[key]);
+    });
+
+    return res.json(data);
   } catch (error) {
     console.error("Error reading DB file:", error);
     return res.status(500).json({ message: "Internal Server Error" });
